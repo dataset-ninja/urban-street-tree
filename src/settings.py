@@ -58,7 +58,7 @@ REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https:/
 CITATION_URL: Optional[str] = "https://www.sciencedirect.com/science/article/abs/pii/S0168169923002405?via%3Dihub"
 AUTHORS: Optional[List[str]] = ["Tingting Yang", "Suyin Zhou", "Zhijie Huang", "Aijun Xu", "Junhua Ye", "Jianxin Yin"]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Zhejiang Agriculture and Forestry University"]
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Zhejiang Agriculture and Forestry University, China"]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.zafu.edu.cn/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
