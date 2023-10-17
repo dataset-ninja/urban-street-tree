@@ -22,7 +22,7 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 ##################################
 LICENSE: License = License.GNU_GPL_v3()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Environmental()]
-CATEGORY: Category = Category.Environmental()
+CATEGORY: Category = Category.Environmental(extra=Category.Biology())
 
 CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(),CVTask.SemanticSegmentation(),CVTask.ObjectDetection(),CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = [CVTask.InstanceSegmentation()]
@@ -31,7 +31,7 @@ RELEASE_DATE: Optional[str] = "2022-09-24"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://ytt917251944.github.io/dataset_jekyll/"
+HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-segmentation-tree"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 7113751
@@ -52,7 +52,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.sciencedirect.com/science/article/abs/pii/S0168169923002405?via%3Dihub"]
-BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = ["https://ytt917251944.github.io/dataset_jekyll/"]
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/ytt917251944/dataset_jekyll"}
 
 CITATION_URL: Optional[str] = "https://www.sciencedirect.com/science/article/abs/pii/S0168169923002405?via%3Dihub"
