@@ -20,7 +20,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.GNU_GPL_v3()
+LICENSE: License = License.GNU_LGPL_v3()
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Environmental()]
 CATEGORY: Category = Category.Environmental(extra=Category.Biology())
 
