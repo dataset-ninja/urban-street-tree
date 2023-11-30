@@ -1,6 +1,6 @@
 Dataset **Urban Street: Tree** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/E/v/Nq/Yoq85OartqUMgoUfkReQd4PzheBBRRe2fMuCUYYPjeNYIlV2QLXnWgiTmckskovjaQD7HXKuHNO5JjGyCckacNSBMIhVoBl7jRvTsRIlFuF4jaT5vWoambLdMNHX.tar)
+ [Download](https://www.dropbox.com/scl/fi/x5ftjcg3phb1hfpcrqahw/urban-street-tree-DatasetNinja.tar?rlkey=tfnnzhqa978cn4cai3ldf1zzx&dl=1)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
